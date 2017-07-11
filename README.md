@@ -41,3 +41,6 @@ How to solve this?
 
 Finally you will find it's OK to run all the test cases as it should match the newest version.
 
+Migration:
+=======================================================================================================
+After 2017/07/11 that will use this new repertory which reduced some spaces.
