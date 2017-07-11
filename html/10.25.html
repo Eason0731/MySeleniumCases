@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>10.25</title>
+
+<script language="javascript">
+<!--
+function showNone() { 
+document.getElementById("div1").style.display = "none";
+}
+
+function showBlock()
+{
+document.getElementById("div1").style.display = "block";
+}
+//-->
+</script>
+<style type="text/css">
+#div1
+{position: absolute;
+width:200px;
+height:115px;
+z-index:1;
+left:28px;
+top:34px;
+background-color:#0033cc;
+}
+</style>
+</head>
+
+<body>
+<div id="div1"></div>
+<br>
+<a onmouseover="showNone()" onmouseout="showBlock()" id="link1"> Click Here</a>
+<a onmouseover="showBlock()" onmouseout="showNone()" id="link2"> Click Here Again</a>
+</body>
+</html>

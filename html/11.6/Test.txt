@@ -1,0 +1,5 @@
+java -version
+
+cd c:/CI
+
+java -jar slave.jar -jnlpUrl http://shacng839w11s:8080/computer/John_RC_Win/slave-agent.jnlp -secret 552c4b32d0e7515a7490b4bc815875bacdcd01424d844f6cc0e874caf19548a6

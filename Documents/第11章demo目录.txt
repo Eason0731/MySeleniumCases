@@ -1,0 +1,20 @@
+11.1 : WebDriver_Advanced_Application_Examples -> Use_JavaScriptExecutor_Click_Testing
+11.2 : WebDriver_Advanced_Application_Examples -> AjaxDivOptionTesting 
+11.2 : WebDriver_Advanced_Application_Examples -> AjaxDivOptionTesting2
+11.3 : WebDriver_Advanced_Application_Examples -> SetAttributeTesting
+11.4 : WebDriver_Advanced_Application_Examples -> DatePickerTesting
+11.6 : WebDriver_Advanced_Application_Examples -> UploadFileTesting
+11.8 : WebDriver_Advanced_Application_Examples -> HandleScollBarTesting
+11.9 : WebDriver_Advanced_Application_Examples -> CustomedProfileTesting
+11.10 : WebDriver_Advanced_Application_Examples -> RobotOperationTesting & RobotTesting
+11.11 : WebDriver_Advanced_Application_Examples -> UIMapTesting
+11.12 : WebDriver_Advanced_Application_Examples -> HandleRichTextAreaTesting
+11.13 : WebDriver_Advanced_Application_Examples -> CaptureImageTesting
+11.14 : WebDriver_Advanced_Application_Examples -> HighLightedShowElementTesting 
+11.16 : WebDriver_Advanced_Application_Examples -> UseLog4jTesting
+11.17 : WebDriver_Advanced_Application_Examples -> TableTesting
+11.18 : WebDriver_Advanced_Application_Examples -> HandleHTML5MediaPlayerTesting
+11.19 : WebDriver_Advanced_Application_Examples -> HandleDrawingOnBrowserTesting
+11.20 : WebDriver_Advanced_Application_Examples -> Handle_Html5Storage
+
+11.5和11.7因涉及第三方工具所以没有demo,11.15因为过长的代码所以暂时没列入

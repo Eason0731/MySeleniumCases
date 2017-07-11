@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>10.26</title>
+
+<script type="text/javascript">
+<!--
+function mouseDownFun() { 
+document.getElementById("div1").innerText += 'Click Left Mouse';
+document.getElementById("div1").innerText += '<br />';
+}
+
+function mouseUpFun() { 
+document.getElementById("div1").innerText += 'Release your left mouse click';
+document.getElementById("div1").innerText += '<br />';
+}
+
+function clickFun() { 
+document.getElementById("div1").innerText += 'Happened!';
+document.getElementById("div1").innerText += '<br />';
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="div1" onmousedown="mouseDownFun()" onmouseup="mouseUpFun()" onclick="clickFun()" style=" background:#ccc; border: 3px solid #999;
+ width:200px; height:200px; padding:10px;">
+<input name="Clear Information" type="button" onClick="document.getElementById('div1').innerText = ''" style=" margin-top:10px" value="Clear Information" />
+</div>
+</body>
+</html>
