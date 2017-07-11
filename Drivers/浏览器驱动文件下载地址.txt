@@ -1,0 +1,5 @@
+各主流浏览器的驱动（包含历史版本）下载地址如下：
+Chrome： https://chromedriver.storage.googleapis.com/index.html
+Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+Firefox - gecko: https://github.com/mozilla/geckodriver/releases
+Internet Explorer: http://selenium-release.storage.googleapis.com/index.html
