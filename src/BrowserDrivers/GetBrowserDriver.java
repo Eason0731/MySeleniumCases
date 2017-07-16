@@ -30,7 +30,7 @@ public class GetBrowserDriver {
 		String CDriverFile = Cdriver.toString();
 		System.setProperty("webdriver.chrome.driver", CDriverFile);	
 		driver = new ChromeDriver();
-		driver.manage().window().setSize(new Dimension(1920,1080));
+		driver.manage().window().maximize();
 		return driver;
 	}
 	
@@ -42,7 +42,7 @@ public class GetBrowserDriver {
 			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 		    ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 			driver = new InternetExplorerDriver(ieCapabilities);
-			driver.manage().window().setSize(new Dimension(1920,1080));
+			driver.manage().window().maximize();
 		}
 		
 		else if (OSName.contains("Mac")){
@@ -70,7 +70,7 @@ public class GetBrowserDriver {
 		String FFDriverFile = FFDriver.toString();
 		System.setProperty("webdriver.gecko.driver", FFDriverFile);
 		driver = new FirefoxDriver();
-		driver.manage().window().setSize(new Dimension(1920,1080));
+		driver.manage().window().maximize();
 		return driver;
 	}
 	
@@ -87,7 +87,7 @@ public class GetBrowserDriver {
 		
 		else if (OSName.contains("Mac")){
 			driver = new SafariDriver();
-			driver.manage().window().setSize(new Dimension(1920,1080));	
+			driver.manage().window().maximize();	
 		}
 		
 		return driver;
