@@ -26,9 +26,7 @@ public class GetBrowserDriver {
 			Cdriver = new File ("Drivers/chromedriver");
 		}
 		
-		System.out.println(OSName);
-		String CDriverFile = Cdriver.toString();
-		System.setProperty("webdriver.chrome.driver", CDriverFile);	
+		System.setProperty("webdriver.chrome.driver", Cdriver.toString());	
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		return driver;
@@ -53,8 +51,7 @@ public class GetBrowserDriver {
 		return driver;		
 	}
 	
-	public static WebDriver GetFireFoxDriver(){
-		//System.setProperty("webdriver.firefox.bin", "C://Program Files (x86)//Mozilla Firefox//firefox.exe");
+	public static WebDriver GetFireFoxDriver(){	
 		File FFDriver = null;
 		
 		if (OSName.contains("Win")){
@@ -67,8 +64,7 @@ public class GetBrowserDriver {
 			FFDriver = new File ("Drivers/geckodriver");
 		}
 		
-		String FFDriverFile = FFDriver.toString();
-		System.setProperty("webdriver.gecko.driver", FFDriverFile);
+		System.setProperty("webdriver.gecko.driver", FFDriver.toString());
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		return driver;
@@ -106,8 +102,7 @@ public class GetBrowserDriver {
 		
 		else if (OSName.contains("Windows 10")){
 			File EDriver = new File ("Drivers/MicrosoftWebDriver.exe");
-			String EDriverFile = EDriver.toString();
-			System.setProperty("webdriver.edge.driver",EDriverFile);
+			System.setProperty("webdriver.edge.driver",EDriver.toString());
 			driver = new EdgeDriver();
 		}
 		return driver;
