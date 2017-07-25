@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import BrowserDrivers.GetBrowserDriver;
 
 
-public class JavaBasicAPITesting {
+public class JavaAPITesting {
 	public WebDriver driver;
 	//10.1 10.2 10.3 10.6
 	
