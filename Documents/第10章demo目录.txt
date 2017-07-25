@@ -1,32 +1,32 @@
-10.1 10.2 10.3 10.6 : JavaAPI -> JavaAPITesting
-10.5 : JavaAPI -> OperateBrowser
-10.7 : JavaAPI -> GetPageSourceTesting
-10.9 and 10.12 : JavaAPI -> ClearInputBoxandDoubleClickTesting
-10.12 : JavaAPI -> DoubleClickTesting
-10.13 and 10.14 : JavaAPI -> DropdownlistTesting
-10.15 : JavaAPI -> MultipeDropListTesting
-10.16 : JavaAPI -> RadioTesting
-10.17 : JavaAPI -> CheckBoxTesting
-10.18 : JavaAPI -> KillBrowser
-10.19 : JavaAPI -> CaptureScreenshotsTesting
-10.20 : JavaAPI -> IsElementTextPresentTesting
-10.21 : JavaAPI -> JavaScriptTesting
-10.22 : JavaAPI -> DragPageElementTesting
-10.23 : JavaAPI -> ClickKeyTesting
-10.24 : JavaAPI -> RightClickTesting
-10.25 : JavaAPI -> RevorOnElementTesting
-10.26 : JavaAPI -> ClickMouseandReleaseTesting
-10.27 : JavaAPI -> GetWebElementAttributeTesting
-10.28 : JavaAPI -> GetWebElementCSSValue
-10.29 : JavaAPI -> ImpllictTesting
-10.30 : JavaAPI -> ExplicitWaitTesting
-10.32 : JavaAPI -> IsElementExistTesting
-10.33 : JavaAPI -> IdentifyPopUpWindowByTitle
-10.34 : JavaAPI -> IdentifyPopUpWindowByPageSourceTesting
-10.35 : JavaAPI -> HandleAlertTesting
-10.36 : JavaAPI -> HandleConfirmTesting
-10.37 : JavaAPI -> HandlePromptTesting
-10.38 : JavaAPI -> HandleFrameTesting
-10.39 : JavaAPI -> HandleFrameByPageSourceTesting
-10.40 : JavaAPI -> HandleiFrameTest
-10.41 : JavaAPI -> UseCookieTesting
+10.1 10.2 10.3 10.6 : JavaBasicAPI -> JavaBasicAPITesting
+10.5 : JavaBasicAPI -> OperateBrowser
+10.7 : JavaBasicAPI -> GetPageSourceTesting
+10.9 and 10.12 : JavaBasicAPI -> ClearInputBoxandDoubleClickTesting
+10.12 : JavaBasicAPI -> DoubleClickTesting
+10.13 and 10.14 : JavaBasicAPI -> DropdownlistTesting
+10.15 : JavaBasicAPI -> MultipeDropListTesting
+10.16 : JavaBasicAPI -> RadioTesting
+10.17 : JavaBasicAPI -> CheckBoxTesting
+10.18 : JavaBasicAPI -> KillBrowser
+10.19 : JavaBasicAPI -> CaptureScreenshotsTesting
+10.20 : JavaBasicAPI -> IsElementTextPresentTesting
+10.21 : JavaBasicAPI -> JavaScriptTesting
+10.22 : JavaBasicAPI -> DragPageElementTesting
+10.23 : JavaBasicAPI -> ClickKeyTesting
+10.24 : JavaBasicAPI -> RightClickTesting
+10.25 : JavaBasicAPI -> RevorOnElementTesting
+10.26 : JavaBasicAPI -> ClickMouseandReleaseTesting
+10.27 : JavaBasicAPI -> GetWebElementAttributeTesting
+10.28 : JavaBasicAPI -> GetWebElementCSSValue
+10.29 : JavaBasicAPI -> ImpllictTesting
+10.30 : JavaBasicAPI -> ExplicitWaitTesting
+10.32 : JavaBasicAPI -> IsElementExistTesting
+10.33 : JavaBasicAPI -> IdentifyPopUpWindowByTitle
+10.34 : JavaBasicAPI -> IdentifyPopUpWindowByPageSourceTesting
+10.35 : JavaBasicAPI -> HandleAlertTesting
+10.36 : JavaBasicAPI -> HandleConfirmTesting
+10.37 : JavaBasicAPI -> HandlePromptTesting
+10.38 : JavaBasicAPI -> HandleFrameTesting
+10.39 : JavaBasicAPI -> HandleFrameByPageSourceTesting
+10.40 : JavaBasicAPI -> HandleiFrameTest
+10.41 : JavaBasicAPI -> UseCookieTesting
