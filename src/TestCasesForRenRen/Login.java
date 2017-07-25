@@ -1,4 +1,4 @@
-package MyTestCases;
+package TestCasesForRenRen;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

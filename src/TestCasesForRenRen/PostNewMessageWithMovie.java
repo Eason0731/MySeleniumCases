@@ -1,4 +1,4 @@
-package MyTestCases;
+package TestCasesForRenRen;
 
 import java.awt.AWTException;
 import java.awt.Robot;

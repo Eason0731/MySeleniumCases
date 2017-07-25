@@ -1,4 +1,4 @@
-package MyTestCases;
+package TestCasesForRenRen;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBuffer;
