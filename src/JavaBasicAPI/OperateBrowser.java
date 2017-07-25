@@ -1,4 +1,4 @@
-package JavaAPI;
+package JavaBasicAPI;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;

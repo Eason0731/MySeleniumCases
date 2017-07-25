@@ -1,4 +1,4 @@
-package JavaAPI;
+package JavaBasicAPI;
 
 import org.openqa.selenium.os.WindowsUtils;
 import org.testng.annotations.AfterMethod;

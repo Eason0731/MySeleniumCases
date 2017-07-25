@@ -1,4 +1,4 @@
-package JavaAPI;
+package JavaBasicAPI;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

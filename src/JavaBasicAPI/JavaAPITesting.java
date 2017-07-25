@@ -1,4 +1,4 @@
-package JavaAPI;
+package JavaBasicAPI;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import BrowserDrivers.GetBrowserDriver;
 
 
-public class JavaAPITesting {
+public class JavaBasicAPITesting {
 	public WebDriver driver;
 	//10.1 10.2 10.3 10.6
 	
