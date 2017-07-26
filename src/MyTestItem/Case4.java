@@ -1,4 +1,4 @@
-package Selenium_Test;
+package MyTestItem;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;

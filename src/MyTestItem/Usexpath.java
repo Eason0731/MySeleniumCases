@@ -1,4 +1,4 @@
-package Selenium_Test;
+package MyTestItem;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;

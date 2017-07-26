@@ -1,4 +1,4 @@
-package com.dbyl.tests;
+﻿package MyTestItem;
 
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;

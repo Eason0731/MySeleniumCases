@@ -1,4 +1,4 @@
-package Selenium_Test;
+package MyTestItem;
 
 import java.util.Calendar;
 
