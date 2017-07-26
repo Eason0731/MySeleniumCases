@@ -19,7 +19,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import Javademos.DriverFactory;
+import BrowserDrivers.GetBrowserDriver;
 
 //import com.dbyl.libarary.utils.DriverFactory;
 
@@ -28,7 +28,7 @@ public class TesseractTest {
     public static void main(String[] args) throws IOException,
             InterruptedException {
 
-        WebDriver driver = DriverFactory.getChromeDriver();
+        WebDriver driver = GetBrowserDriver.GetChromeDriver();
         driver.get("file:///e:/code/validation.html");
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         WebElement element = driver.findElement(By.xpath("//img"));
