@@ -27,7 +27,7 @@ public class CustomedProfileTesting {
 	  
 	  profile.setPreference("browser.startup.homepage", "http://www.baidu.com"); //调用setPreference方法，将配置文件Webdriver的首页改为http://www.baidu.com
 	  
-	  driver = new FirefoxDriver(profile); //实例化profile并且启动该对象 (这一步有问题似乎)
+	  //driver = new FirefoxDriver(profile); //实例化profile并且启动该对象 (这一步有问题似乎)
 	  
 	  WebElement SearchBox = driver.findElement(By.id("kw"));
 	  WebElement SearchButton = driver.findElement(By.id("su"));
