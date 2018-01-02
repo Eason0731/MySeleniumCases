@@ -104,6 +104,7 @@ public class GetBrowserDriver {
 			File EDriver = new File ("Drivers/MicrosoftWebDriver.exe");
 			System.setProperty("webdriver.edge.driver",EDriver.toString());
 			driver = new EdgeDriver();
+			driver.manage().window().maximize();
 		}
 		return driver;
 	}
