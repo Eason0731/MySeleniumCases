@@ -1,10 +1,13 @@
 # MySeleniumCase
 
 Current Version:
-Selenium: 3.8.1
-IE Driver: 3.8.0
-Chrome Driver: 2.33
-Gecko Driver: 0.19.1
+Selenium: 3.8.1 --- Update date: Jan 14, 2018
+
+IE Driver: 3.8.0 --- Update date: Dec 6, 2017
+
+Chrome Driver: 2.33 --- Update date: Oct 17, 2017
+
+Gecko Driver: 0.19.1 --- Update date: Nov 7, 2017
 
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
@@ -51,9 +54,13 @@ After 2017/07/11 that will use this new repertory which reduced some spaces.
 Maintainence
 =======================================================================================================
 The selenium cases will switch to develop on Python which included on repository named MyPython.
+
 For this selenium repository based on Java language that just do the maintainence work.
+
 Such as update the version of jar packages,IE driver,Chrome  driver and Gecko(Firefox) driver.
 
 As to add and create new selenium cases that will switch to Python repository and won't on Java.
+
 Develop and use the core functions of selenium only on Python start from 2018.
+
 Thanks Java lead me the way from beginer to middle of selenium level.
