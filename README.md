@@ -1,6 +1,7 @@
 # MySeleniumCase
 
 Current Version:
+
 Selenium: 3.8.1 --- Update date: Jan 14, 2018
 
 IE Driver: 3.8.0 --- Update date: Dec 6, 2017
