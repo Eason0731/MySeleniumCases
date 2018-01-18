@@ -44,3 +44,13 @@ Finally you will find it's OK to run all the test cases as it should match the n
 Migration:
 =======================================================================================================
 After 2017/07/11 that will use this new repertory which reduced some spaces.
+
+Maintainence
+=======================================================================================================
+The selenium cases will switch to develop on Python which included on repository named MyPython.
+For this selenium repository based on Java language that just do the maintainence work.
+Such as update the version of jar packages,IE driver,Chrome  driver and Gecko(Firefox) driver.
+
+As to add and create new selenium cases that will switch to Python repository and won't on Java.
+Develop and use the core functions of selenium only on Python start from 2018.
+Thanks Java lead me the way from beginer to middle of selenium level.
