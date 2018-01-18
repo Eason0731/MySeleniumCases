@@ -1,7 +1,10 @@
 # MySeleniumCase
 
-This SeleniumCase project based on SeleniumCases 2.0. On this project, I've updated the selenium webdriver version from 2.53.0 to 3.0.1.
-Will keep countinue to update version. 
+Current Version:
+Selenium: 3.8.1
+IE Driver: 3.8.0
+Chrome Driver: 2.33
+Gecko Driver: 0.19.1
 
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
