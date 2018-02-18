@@ -2,9 +2,9 @@
 
 Current Version:
 
-Selenium: 3.8.1 --- Update date: Jan 14, 2018
+Selenium: 3.9.1 --- Update date: Feb 18, 2018
 
-IE Driver: 3.8.0 --- Update date: Dec 6, 2017
+IE Driver: 3.9.0 --- Update date: Feb 18, 2018
 
 Chrome Driver: 2.35 --- Update date: Jan 26, 2018
 
