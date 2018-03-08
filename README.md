@@ -10,6 +10,8 @@ Chrome Driver: 2.36 --- Update date: Mar 7, 2018
 
 Gecko Driver: 0.19.1 --- Update date: Nov 7, 2017
 
+Edge Driver: Release 16299 --- Update date: Mar 8, 2018
+
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
 1. Remove one selenium RC (Remote Control) case on this project. As it has been removed by selenium offical.
