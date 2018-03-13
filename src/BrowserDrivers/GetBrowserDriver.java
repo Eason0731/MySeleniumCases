@@ -35,8 +35,7 @@ public class GetBrowserDriver {
 	public static WebDriver GetInternetExplorerDriver(){
 		if (OSName.contains("Win")){
 			File IEdriver = new File ("Drivers/IEDriverServer.exe");
-			String IEDriverFile = IEdriver.toString();
-			System.setProperty("webdriver.ie.driver", IEDriverFile);
+			System.setProperty("webdriver.ie.driver", IEdriver.toString());
 			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 		    ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 			driver = new InternetExplorerDriver(ieCapabilities);
@@ -55,12 +54,10 @@ public class GetBrowserDriver {
 		File FFDriver = null;
 		
 		if (OSName.contains("Win")){
-			System.out.println(OSName);
 			FFDriver = new File ("Drivers/geckodriver.exe");
 		}
 		
 		else if (OSName.contains("Mac")){
-			System.out.println(OSName);
 			FFDriver = new File ("Drivers/geckodriver");
 		}
 		
