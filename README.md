@@ -2,7 +2,7 @@
 
 Current Version:
 
-Selenium: 3.10.0 --- Update date: Mar 5, 2018
+Selenium: 3.11.0 --- Update date: Mar 16, 2018
 
 IE Driver: 3.11.1 --- Update date: Mar 15, 2018
 
