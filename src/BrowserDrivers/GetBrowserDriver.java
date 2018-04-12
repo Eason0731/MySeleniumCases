@@ -16,24 +16,6 @@ public class GetBrowserDriver {
 	public static WebDriver driver = null;
 	public static String OSName = System.getProperties().getProperty("os.name");
 	
-	/*
-	public static WebDriver GetChromeDriver(){
-		File Cdriver = null;
-		if (OSName.contains("Win")){
-			Cdriver = new File ("Drivers/ChromeDriver.exe");
-		}
-		
-		else if (OSName.contains("Mac")){
-			Cdriver = new File ("Drivers/chromedriver");
-		}
-		
-		System.setProperty("webdriver.chrome.driver", Cdriver.toString());	
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		return driver;
-	}
-	*/
-	
 	public static WebDriver GetInternetExplorerDriver(){
 		if (OSName.contains("Win")){
 			File IEdriver = new File ("Drivers/IEDriverServer.exe");
