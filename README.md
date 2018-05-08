@@ -10,7 +10,7 @@ Chrome Driver: 2.37 --- Update date: Apr 12, 2018
 
 Gecko Driver: 0.20.1 --- Update date: Apr 12, 2018
 
-Edge Driver: Release 16299 --- Update date: Mar 8, 2018
+Edge Driver: Release 17134 --- Update date: May 8, 2018
 
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
