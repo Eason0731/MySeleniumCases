@@ -6,7 +6,7 @@ Selenium: 3.11.0 --- Update date: Mar 16, 2018
 
 IE Driver: 3.11.1 --- Update date: Mar 15, 2018
 
-Chrome Driver: 2.37 --- Update date: Apr 12, 2018
+Chrome Driver: 2.38 --- Update date: May 9, 2018
 
 Gecko Driver: 0.20.1 --- Update date: Apr 12, 2018
 
