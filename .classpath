@@ -5,7 +5,7 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="libs/3.11.0/selenium-3.11.0-nodeps.jar"/>
-	<classpathentry kind="lib" path="libs/3.11.0/selenium-server-standalone-3.11.0.jar"/>
+	<classpathentry kind="lib" path="libs/3.12.0/selenium-3.12.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="libs/3.12.0/selenium-server-standalone-3.12.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
