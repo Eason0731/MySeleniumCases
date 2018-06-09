@@ -67,3 +67,5 @@ As to add and create new selenium cases that will switch to Python repository an
 Develop and use the core functions of selenium only on Python start from 2018.
 
 Thanks Java lead me the way from beginer to middle of selenium level.
+
+Rubbish Eclipse
