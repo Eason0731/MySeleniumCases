@@ -6,7 +6,7 @@ Selenium: 3.12.0 --- Update date: May 13, 2018
 
 IE Driver: 3.12.0 --- Update date: May 13, 2018
 
-Chrome Driver: 2.38 --- Update date: May 9, 2018
+Chrome Driver: 2.40 --- Update date: Jun 9, 2018
 
 Gecko Driver: 0.20.1 --- Update date: Apr 12, 2018
 
@@ -15,7 +15,7 @@ Edge Driver: Release 17134 --- Update date: May 8, 2018
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
 1. Remove one selenium RC (Remote Control) case on this project. As it has been removed by selenium offical.
-2. Firefox browser has been isolated on selenium 3.0. Geckodriver is an isolate driver for Firefox whihc used as same as chromedriver and IEServerDriver.
+2. Firefox browser has been isolated on selenium 3.0. Geckodriver is an isolate driver for Firefox which used as same as chromedriver and IEServerDriver.
 E.g.: How to use Geckodriver on selenium 3.0:
 
     System.setProperty("webdriver.gecko.driver","path of geckodriver.exe");
