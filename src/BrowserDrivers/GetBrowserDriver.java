@@ -37,7 +37,7 @@ public class GetBrowserDriver {
 	public static WebDriver GetChromeDriver(){
 		File Cdriver = null;
 		if (OSName.contains("Win")){
-			Cdriver = new File ("Drivers/ChromeDriver.exe");
+			Cdriver = new File ("Drivers/chromedriver.exe");
 		}
 		
 		else if (OSName.contains("Mac")){
