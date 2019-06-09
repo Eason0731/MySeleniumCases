@@ -6,11 +6,11 @@ Selenium: 3.14.0 --- Update date: Aug 5, 2018
 
 IE Driver: 3.141.0 --- Update date: Nov 5, 2018
 
-Chrome Driver: 74.0.3729.6 --- Update date: Apr 28, 2019
+Chrome Driver: 75.0.3770.8 --- Update date: Jun 9, 2019
 
 Gecko Driver: 0.24.0 --- Update date: Feb 15, 2019
 
-Edge Driver: Release 75 --- Update date: Apr 28, 2019
+Edge Driver: Release 76 --- Update date: Jun 9, 2019
 
 Eclipse: IDE 2019-03 v4.11 --- Update date: Apr 1, 2019
 
