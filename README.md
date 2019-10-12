@@ -10,7 +10,7 @@ Chrome Driver: 77.0.3865.40 --- Update date: Sep 12, 2019
 
 Gecko Driver: 0.25.0 --- Update date: Sep 12, 2019
 
-Edge Driver: Release 78.0.274.0 --- Update date: Sep 12, 2019
+Edge Driver: Release 79.0.300.0 --- Update date: Oct 12, 2019
 
 Eclipse: IDE 2019-06 v4.12 --- Update date: Jul 15, 2019
 
