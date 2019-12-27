@@ -68,8 +68,8 @@ public class GetBrowserDriver {
 	}
 	
 	public static WebDriver GetSafariDriver(){
-		if (OSName.contains("Windows 7")){
-			System.out.println("Safari browser cannot be run on Windows 7, switch to IE now");
+		if (OSName.contains("Windows 7") || OSName.contains("Windows 8")){
+			System.out.println("Safari browser cannot be run on Windows 7 or 8, switch to IE now");
 			GetInternetExplorerDriver();
 		}
 		
@@ -92,8 +92,8 @@ public class GetBrowserDriver {
 			GetSafariDriver();
 		}
 		
-		else if (OSName.contains("Windows 7")){
-			System.out.println("Edge Browser cannot be run on Windows 7, switch to IE now");
+		else if (OSName.contains("Windows 7") || OSName.contains("Windows 8")){
+			System.out.println("Edge Browser cannot be run on Windows 7 or 8, switch to IE now");
 			GetInternetExplorerDriver();
 		}
 		
