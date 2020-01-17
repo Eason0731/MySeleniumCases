@@ -1,4 +1,4 @@
-# MySeleniumCase
+﻿# MySeleniumCase
 
 Current Version:
 
@@ -10,7 +10,7 @@ Chrome Driver: 79.0.3945.36 --- Update date: Dec 15, 2019
 
 Gecko Driver: 0.26.0 --- Update date: Oct 25, 2019
 
-Edge Driver: Release 81.0.363.0 --- Update date: Dec 15, 2019
+Edge Driver: Release 81.0.395.0 --- Update date: Jan 17, 2020
 
 Eclipse: IDE 2019-06 v4.12 --- Update date: Jul 15, 2019
 
