@@ -12,7 +12,7 @@ Gecko Driver: 0.26.0 --- Update date: Oct 25, 2019
 
 Edge Driver: Release 85.0.531.0 --- Update date: Jun 1, 2020
 
-Eclipse: IDE 2019-12 v4.14 --- Update date: Feb 11, 2020
+Eclipse: IDE 2020-06 v4.16 --- Update date: Jun 25, 2020
 
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
