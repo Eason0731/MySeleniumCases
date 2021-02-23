@@ -98,7 +98,7 @@ public class GetBrowserDriver {
 		}
 		
 		else if (OSName.contains("Windows 10")){
-			File EDriver = new File ("Drivers/MicrosoftWebDriver.exe");
+			File EDriver = new File ("Drivers/msedgedriver.exe");
 			System.setProperty("webdriver.edge.driver",EDriver.toString());
 			driver = new EdgeDriver();
 			driver.manage().window().maximize();
