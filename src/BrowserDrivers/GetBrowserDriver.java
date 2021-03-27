@@ -88,21 +88,26 @@ public class GetBrowserDriver {
 	
 	public static WebDriver GetEdgeDriver(){
 		if (OSName.contains("Mac")){
-			System.out.println("Edge Browser cannot be run on Mac, switch to Safari now");
+			System.out.println("Edge browser cannot be run on Mac, switch to Safari now");
 			GetSafariDriver();
 		}
-		
-		else if (OSName.contains("Windows 7") || OSName.contains("Windows 8")){
-			System.out.println("Edge Browser cannot be run on Windows 7 or 8, switch to IE now");
-			GetInternetExplorerDriver();
+		else if (OSName.contains("Windows")) {
+			File Edge_x86 = new File ("C:\\Program Files (x86)\\Microsoft\\Edge");
+			File Edge = new File ("C:\\Program Files\\Microsoft\\Edge");
+			
+			if(Edge_x86.exists() || Edge.exists()) {
+				File EDriver = new File ("Drivers/msedgedriver.exe");
+				System.setProperty("webdriver.edge.driver", EDriver.toString());
+				driver = new EdgeDriver();
+				driver.manage().window().maximize();
+			}
+			
+			else {
+				System.out.println("Not found Edge browser on this PC,switch to IE now");
+				GetInternetExplorerDriver();
+			}
 		}
 		
-		else if (OSName.contains("Windows 10")){
-			File EDriver = new File ("Drivers/msedgedriver.exe");
-			System.setProperty("webdriver.edge.driver",EDriver.toString());
-			driver = new EdgeDriver();
-			driver.manage().window().maximize();
-		}
 		return driver;
 	}
 	
