@@ -17,18 +17,13 @@ public class GetBrowserDriver {
 	public static String OSName = System.getProperties().getProperty("os.name");
 	
 	public static WebDriver GetInternetExplorerDriver(){
-		if (OSName.contains("Windowns 7") || OSName.contains("Windows 8")){
+		if (OSName.contains("Windows")){
 			File IEdriver = new File ("Drivers/IEDriverServer.exe");
 			System.setProperty("webdriver.ie.driver", IEdriver.toString());
 			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 		    ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 			driver = new InternetExplorerDriver(ieCapabilities);
 			driver.manage().window().maximize();
-		}
-		
-		else if (OSName.contains("Windows 10")){
-			System.out.println("IE browser was not supported on Windows 10, switch to Edge now");
-			GetEdgeDriver();
 		}
 		
 		else if (OSName.contains("Mac")){
