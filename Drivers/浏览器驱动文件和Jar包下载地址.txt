@@ -1,4 +1,8 @@
+Selenium Jar包正式版下载地址：
+https://github.com/SeleniumHQ/selenium/releases/
+
 各主流浏览器的驱动（包含历史版本）下载地址如下：
+IE：https://www.selenium.dev/downloads/
 Chrome：https://sites.google.com/chromium.org/driver/（需科学上网）
 Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ (官网页面) 
 https://msedgedriver.azureedge.net/浏览器最新版本号/edgedriver_win32.zip （32位驱动文件）
