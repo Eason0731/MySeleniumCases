@@ -20,9 +20,10 @@ public class GetBrowserDriver {
 		if (OSName.contains("Windows")){
 			File IEdriver = new File ("Drivers/IEDriverServer.exe");
 			System.setProperty("webdriver.ie.driver", IEdriver.toString());
-			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
-		    ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-			driver = new InternetExplorerDriver(ieCapabilities);
+			//DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
+		    //ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			//driver = new InternetExplorerDriver(ieCapabilities);
+			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();
 		}
 		

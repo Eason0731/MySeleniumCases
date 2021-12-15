@@ -7,34 +7,39 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class Case1 {
 public static void main(String[] args) {
    System.setProperty("webdriver.ie.driver",
-     "D:\\Selenium\\2.48.2\\IEDriverServer.exe");//×¢ÒâÕâÀïIEDriverServer.exeµÄÎÄ¼ş´æ·ÅÂ·¾¶
-   DesiredCapabilities ieCapabilities = DesiredCapabilities
-     .internetExplorer();
+     "D:\\Selenium\\2.48.2\\IEDriverServer.exe");//×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IEDriverServer.exeï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½
+   /*
+    * DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
+   
    ieCapabilities
      .setCapability(
        InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
        true);
-//newÒ»¸öwebdriver¶ÔÏó
-   WebDriver driver = new InternetExplorerDriver(ieCapabilities);
-//ÉÏÃæÕâÒ»¶ÎÊÇÓÃÀ´½â¾öIE°²È«ÉèÖÃÌáÊ¾µÄ
-//Í¨¹ıwebdriverµÄget·½·¨µ÷ÓÃä¯ÀÀÆ÷£¬´ò¿ªÍøÒ³£ºhttp://www.baidu.com
+       
+     */
+ //DesiredCapabilities were not recommend on Selenium 4.0 , disable it!
+   
+//newÒ»ï¿½ï¿½webdriverï¿½ï¿½ï¿½ï¿½
+   WebDriver driver = new InternetExplorerDriver();
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IEï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½
+//Í¨ï¿½ï¿½webdriverï¿½ï¿½getï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½http://www.baidu.com
    driver.get("http://www.sogou.com/");
-    //Í¨¹ıÒ³ÃæÔªËØµÄname=wd¶¨Î»µ½²éÑ¯ÊäÈë¿ò
+    //Í¨ï¿½ï¿½Ò³ï¿½ï¿½Ôªï¿½Øµï¿½name=wdï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½
 
-   WebElement element = driver.findElement(By.id("query")); //°Ù¶ÈËÑË÷¿òµÄÃû×Ö
-  //ÔÚÊäÈë¿òÊäÈë¡®hello Selenium!¡¯
+   WebElement element = driver.findElement(By.id("query")); //ï¿½Ù¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¡®hello Selenium!ï¿½ï¿½
    element.sendKeys("hello Selenium!");
-  //Ìá½»²éÑ¯
+  //ï¿½á½»ï¿½ï¿½Ñ¯
    element.submit();
-//µÈ´ı£¬³¬Ê±ÔòÅ×³ö´íÎó
+//ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½×³ï¿½ï¿½ï¿½ï¿½ï¿½
    try {
     Thread.sleep(3000);
    } catch (InterruptedException e) {
     e.printStackTrace();
    }
-//Êä³öµ±Ç°Ò³ÃæµÄtitle
+//ï¿½ï¿½ï¿½ï¿½ï¿½Ç°Ò³ï¿½ï¿½ï¿½title
    System.out.println("Page title is: " + driver.getTitle());
-//¹Ø±ÕËùÓĞwebdriver½ø³Ì£¬ÍË³ö
+//ï¿½Ø±ï¿½ï¿½ï¿½ï¿½ï¿½webdriverï¿½ï¿½ï¿½Ì£ï¿½ï¿½Ë³ï¿½
    driver.quit();
   }
  }

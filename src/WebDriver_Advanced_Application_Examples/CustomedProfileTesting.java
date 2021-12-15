@@ -1,5 +1,7 @@
-package WebDriver_Advanced_Application_Examples;
+/*The type ProfilesIni is deprecated start from selenium 3.0*/
 
+/*
+package WebDriver_Advanced_Application_Examples;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +15,7 @@ import org.testng.annotations.Test;
 import BrowserDrivers.GetBrowserDriver;
 
 
+@SuppressWarnings({ "unused", "deprecation" })
 public class CustomedProfileTesting {
 	WebDriver driver;
 	String BaseURL;
@@ -21,7 +24,8 @@ public class CustomedProfileTesting {
   @Test
   
   public void CustomedProfileTest() {
-	  ProfilesIni allprofiles = new ProfilesIni();  //声明ProfilesIni对象，并命名为allprofiles
+	  @SuppressWarnings("deprecation")
+	ProfilesIni allprofiles = new ProfilesIni();  //声明ProfilesIni对象，并命名为allprofiles
 	  
 	  FirefoxProfile profile = allprofiles.getProfile("Webdriver"); //声明FirefoxProfile对象，并命名为profile,并调用ProfilesIni对象allprofiles去读取名为Webdriver的Profile文件
 	  
@@ -51,3 +55,4 @@ public class CustomedProfileTesting {
   }
 
 }
+*/

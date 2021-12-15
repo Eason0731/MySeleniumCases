@@ -14,12 +14,15 @@ public class Methods {
 	public static WebDriver BeforeMethodChrome(){
         System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\ChromeDriver\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-     
+        
+        /*
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability("chrome.switches",
                 Arrays.asList("--start-maximized"));
         options.addArguments("--test-type", "--start-maximized");
+        */
         
+        //DesiredCapabilities were not recommend on Selenium 4.0 , disable it! 
         WebDriver driver=new ChromeDriver(options);
         return driver;
 		
