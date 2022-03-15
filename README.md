@@ -6,11 +6,11 @@ Selenium: 4.1.0 --- Update date: Dec 15, 2021
 
 IE Driver: 4.0.0 --- Update date: Dec 15, 2021
 
-Chrome Driver: 98.0.4758.80 --- Update date: Feb 15, 2022
+Chrome Driver: 99.0.4844.51 --- Update date: Mar 15, 2022
 
 Gecko Driver: 0.30.0 --- Update date: Oct 13, 2021
 
-Edge Driver: 98.0.1108.50 --- Update date: Feb 15, 2022
+Edge Driver: 99.0.1150.39 --- Update date: Mar 15, 2022
 
 Eclipse: IDE 2021-06 v4.20 --- Update date: Jun 21, 2021
 
