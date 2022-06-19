@@ -34,12 +34,14 @@ public class MultipleBrowserTesting {
 		Thread.sleep(2000);
 	}
 
-	
+
   @Test (priority = 0)
   public void IEBrowser() throws Exception {
 	  driver = GetBrowserDriver.GetInternetExplorerDriver();
 	  TestItem(driver,"Internet Explorer");
   }
+
+	
   @Test (priority = 1)
   public void ChromeBrowser() throws Exception {
 	  driver = GetBrowserDriver.GetChromeDriver();

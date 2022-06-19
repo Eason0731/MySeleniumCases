@@ -17,7 +17,7 @@ public class GetBrowserDriver {
 	public static String OSName = System.getProperties().getProperty("os.name");
 	
 	public static WebDriver GetInternetExplorerDriver(){
-		if (OSName.contains("Windows")){
+		if (OSName.contains("Windows 7") || OSName.contains("Windows 8")){
 			File IEdriver = new File ("Drivers/IEDriverServer.exe");
 			System.setProperty("webdriver.ie.driver", IEdriver.toString());
 			//DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
@@ -25,6 +25,11 @@ public class GetBrowserDriver {
 			//driver = new InternetExplorerDriver(ieCapabilities);
 			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();
+		}
+		
+		else if (OSName.contains("Windows 10") || OSName.contains("Windows 11")){
+			System.out.println("IE browser has been removed on Windows 10 and Windows 11 since June 16 ,2022 , switch to Edge now");
+			GetEdgeDriver();
 		}
 		
 		else if (OSName.contains("Mac")){
@@ -74,10 +79,12 @@ public class GetBrowserDriver {
 			GetInternetExplorerDriver();
 		}
 		
-		else if (OSName.contains("Windows 10")){
-			System.out.println("Safari browser cannot be run on Windows 10, switch to Edge now");
+		
+		else if (OSName.contains("Windows 10") || OSName.contains("Windows 11")){
+			System.out.println("Safari browser cannot be run on Windows 10 or Windows 11, switch to Edge now");
 			GetEdgeDriver();
 		}
+		
 		
 		else if (OSName.contains("Mac")){
 			driver = new SafariDriver();
