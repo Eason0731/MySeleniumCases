@@ -2,7 +2,7 @@
 
 Current Version:
 
-Selenium: 4.7.2 --- Update date: Dec 15, 2022
+Selenium: 4.1.0 --- Update date: Dec 15, 2022
 
 IE Driver: 4.6.0 --- Update date: Dec 15, 2022
 
