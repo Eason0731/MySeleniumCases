@@ -5,6 +5,7 @@ import java.io.File;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -50,8 +51,10 @@ public class GetBrowserDriver {
 			Cdriver = new File ("Drivers/chromedriver");
 		}
 		
-		System.setProperty("webdriver.chrome.driver", Cdriver.toString());	
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", Cdriver.toString());
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		return driver;
 	}
