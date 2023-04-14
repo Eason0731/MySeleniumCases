@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -106,7 +107,9 @@ public class GetBrowserDriver {
 		else if (OSName.contains("Windows 10") || OSName.contains("Windows 11")){
 			File EDriver = new File ("Drivers/msedgedriver.exe");
 			System.setProperty("webdriver.edge.driver", EDriver.toString());
-			driver = new EdgeDriver();
+			EdgeOptions options = new EdgeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver = new EdgeDriver(options);
 			driver.manage().window().maximize();
 		}
 		
