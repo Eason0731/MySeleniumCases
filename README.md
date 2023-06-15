@@ -16,7 +16,7 @@ Edge Driver: 114.0.1823.37 --- Update date: Jun 15, 2023
 
 Microsoft Edge won't support Windows 7 and 8.1 after v109.0.1518.78. Also v109.0.1518.78 is the last version on Windows 7 and 8.1!
 
-Eclipse: IDE 2022-06 v4.24 --- Update date: Jun 19, 2022
+Eclipse: IDE 2023-06 v4.28 --- Update date: Jun 15, 2023
 
 Changes between selenium 2 and 3 as I know:
 =======================================================================================================
