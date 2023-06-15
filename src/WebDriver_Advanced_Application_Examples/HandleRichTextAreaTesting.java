@@ -5,6 +5,7 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +16,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import java.time.Duration;
 
 import BrowserDrivers.GetBrowserDriver;
 
@@ -29,7 +31,8 @@ public class HandleRichTextAreaTesting {
 	  driver.findElement(By.id("password")).sendKeys("1111");
 	  driver.findElement(By.id("login_img")).click();
 	  
-	  WebDriverWait wait = new WebDriverWait (driver,30);
+	  //WebDriverWait wait = new WebDriverWait (driver,30);
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30)); //显式等待新语法30秒
 	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("write_mail")));
 	  driver.findElement(By.id("close_alert_ad")).click(); //关闭广告窗口
 	  //Assert.assertTrue(driver.getPageSource().contains("您好：fosterwu"));

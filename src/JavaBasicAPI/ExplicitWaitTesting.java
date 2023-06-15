@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import java.time.Duration;
 
 import BrowserDrivers.GetBrowserDriver;
 
@@ -21,7 +22,8 @@ public class ExplicitWaitTesting {
 	  File myHtml = new File ("html/10.30.html");
 	  String myHtmlFile = myHtml.getAbsolutePath(); //getAbsolutePath()返回抽象路径名的绝对路径名字符串
 	  driver.get("file://" +myHtmlFile);
-	  WebDriverWait wait = new WebDriverWait(driver,10); 
+	  //WebDriverWait wait = new WebDriverWait(driver,10); 
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10)); //显式等待新语法10秒
 	  //声明一个WebDriverWait对象，设定触发条件为10秒
 	  wait.until(ExpectedConditions.titleContains("10"));
 	  //调用ExpectedConditions的titleContains方法判断页面的title属性是否包含“10”

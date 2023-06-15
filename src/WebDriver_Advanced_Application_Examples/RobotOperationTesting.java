@@ -14,6 +14,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import java.time.Duration;
 
 import BrowserDrivers.GetBrowserDriver;
 
@@ -23,7 +24,8 @@ public class RobotOperationTesting {
   @Test
   //11.10
   public void RobotOperationTest() throws Exception {
-	  WebDriverWait wait = new WebDriverWait (driver,10); //显式等待10秒
+	  //WebDriverWait wait = new WebDriverWait (driver,10); //显式等待10秒
+	  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10)); //显式等待新语法10秒
 	  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("kw"))); //判断是否显示搜索的文本框
 	  SetCTRLVFunction("Selenium Webdriver");
 	  SetTabFunction();
