@@ -4,7 +4,7 @@ Current Version:
 
 Selenium: 4.10.0 --- Update date: Jun 15, 2023
 
-IE Driver: 4.10.0 --- Update date: Jun 15, 2023
+IE Driver: 4.11.0 --- Update date: Sep 15, 2023
 
 Chrome Driver: 117.0.5938.62 --- Update date: Sep 15, 2023
 
