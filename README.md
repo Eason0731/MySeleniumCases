@@ -12,7 +12,7 @@ Google Chrome won't support Windows 7 and 8.1 after v109.0.5414.120. Also v109.0
 
 Gecko Driver: 0.33.0 --- Update date: Apr 14, 2023
 
-Edge Driver: 116.0.1938.81 --- Update date: Sep 15, 2023
+Edge Driver: 117.0.2045.43 --- Update date: Sep 26, 2023
 
 Microsoft Edge won't support Windows 7 and 8.1 after v109.0.1518.78. Also v109.0.1518.78 is the last version on Windows 7 and 8.1!
 
