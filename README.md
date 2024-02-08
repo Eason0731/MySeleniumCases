@@ -6,13 +6,13 @@ Selenium: 4.16.0 --- Update date: Dec 15, 2023
 
 IE Driver: 4.14.0 --- Update date: Oct 15, 2023
 
-Chrome Driver: 120.0.6099.71 --- Update date: Dec 15, 2023
+Chrome Driver: 121.0.6167.85 --- Update date: Feb 8, 2024
 
 Google Chrome won't support Windows 7 and 8.1 after v109.0.5414.120. Also v109.0.5414.120 is the last version on Windows 7 and 8.1!
 
 Gecko Driver: 0.34.0 --- Update date: Jan 15, 2024
 
-Edge Driver: 120.0.2210.77 --- Update date: Dec 15, 2023
+Edge Driver: 121.0.2277.110 --- Update date: Feb 8, 2024
 
 Microsoft Edge won't support Windows 7 and 8.1 after v109.0.1518.78. Also v109.0.1518.78 is the last version on Windows 7 and 8.1!
 
